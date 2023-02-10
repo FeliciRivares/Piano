@@ -1,0 +1,26 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(183, 82, 181);
+}
+.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    min-width: 100vw;
+}
+.white-keys{
+    fill: #edeee2;
+    transition: all 0.3s ease 0s;
+}
+.white-keys:hover{
+    fill: #5b5b5f;
+}
+.black-keys{
+    fill: rgb(31, 30, 30);
+    transition: all 0.3s ease 0s;
+}
+.black-keys:hover{
+    fill: #754885;
+}
